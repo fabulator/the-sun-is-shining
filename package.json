@@ -31,6 +31,6 @@
         "dotenv": "^7.0.0",
         "luxon": "^1.19.3",
         "sunrise-sunset-js": "^2.1.1",
-        "twitter": "^1.7.0"
+        "twitter": "^1.7.1"
     }
 }
