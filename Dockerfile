@@ -12,4 +12,8 @@ COPY src /srv/src/
 
 RUN npm run tsc
 
+RUN rm -rf /srv/src
+
+RUN npm ci --production
+
 CMD npm run start
