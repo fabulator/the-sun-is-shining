@@ -1,0 +1,33 @@
+{
+    "name": "the-sun-is-shining",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist",
+        "tsc": "tsc",
+        "develop": "tsc --emitDeclarationOnly false --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/fabulator/the-sun-is-shining.git"
+    },
+    "author": "Michal Ozogán <michal@ozogan.eu>",
+    "license": "Apache-2.0",
+    "keywords": [],
+    "devDependencies": {
+        "@socifi/commitlint-config": "^1.0.0",
+        "husky": "^3.0.4"
+    },
+    "dependencies": {
+        "@types/cron": "^1.7.1",
+        "@types/luxon": "^1.15.2",
+        "@types/twitter": "^1.7.0",
+        "cron": "^1.7.2",
+        "dotenv": "^8.2.0",
+        "luxon": "^1.19.3",
+        "sunrise-sunset-js": "^2.1.1",
+        "twitter": "^1.7.1",
+        "typescript": "^3.6.4"
+    }
+}
