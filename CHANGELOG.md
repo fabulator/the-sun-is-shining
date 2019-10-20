@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.3.0-beta.2] 2019-10-20
+### Changed
+- Update version of semantic-release-config-fabulator library
+
 ## [0.3.0-beta.1] 2019-10-20
 ### Changed
 - Make docker image smaller
