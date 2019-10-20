@@ -1,6 +1,7 @@
 const execa = require('execa');
 const semver = require('semver');
 
+
 module.exports = async ({ name }, { nextRelease: { version }, logger }) => {
     function publish(dockerVersion) {
         logger.log(`Pushing version ${name}:${dockerVersion} to docker hub`);
@@ -24,5 +25,5 @@ module.exports = async ({ name }, { nextRelease: { version }, logger }) => {
     const [ channel ] = prerelease;
 
     publish(channel);
-    publish(`${major}.${minor}.${path}-${channel}`);
+    publish(`${major}.${minor}.${patch}-${channel}`);
 };
