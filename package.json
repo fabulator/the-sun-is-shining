@@ -24,7 +24,7 @@
         "husky": "^2.7.0",
         "renovate-config-fabulator": "^1.1.0",
         "semantic-release-config-fabulator": "^1.1.7",
-        "typescript": "^3.6.0"
+        "typescript": "^3.6.4"
     },
     "dependencies": {
         "cron": "^1.7.2",
