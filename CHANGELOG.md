@@ -3,10 +3,6 @@ All notable changes to this project will be documented in this file.
 
 ## [0.2.0-beta.7] 2019-10-20
 ### Changed
-- Clean config
-
-## [0.2.0-beta.6] 2019-10-20
-### Changed
 - Update libraries.
 - Update libraries.
 - Update workflow
