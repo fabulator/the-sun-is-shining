@@ -14,4 +14,4 @@ jobs:
             - name: NPM Build and Test
               run: |
                   npm ci
-                  npm run publish
+                  npm run release
