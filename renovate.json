@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "fabulator"
+    ],
+    "packageRules": [
+        {
+            "depTypeList": [
+                "devDependencies"
+            ],
+            "commitMessageTopic": "dev dependency {{depName}}",
+            "commitMessageSuffix": "NO_RELEASE",
+            "major": {
+                "automerge": true
+            }
+        },
+        {
+            "depTypeList": [
+                "dependencies"
+            ],
+            "updateTypes": [
+                "major"
+            ],
+            "commitMessageSuffix": "BREAKING"
+        }
+    ],
+    "schedule": []
+}
