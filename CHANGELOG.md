@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.4.0] 2019-10-20
 ### Changed
+- dependency twitter to ^1.7.1
+- dependency sunrise-sunset-js to ^2.1.1
+
+### Added
+- Renovate 
+
+## [0.4.0] 2019-10-20
+### Changed
 - dependency sunrise-sunset-js to ^2.1.1
 
 ### Added
