@@ -10,7 +10,7 @@ module.exports = {
         //...prepare.filter((value) => value !== '@semantic-release/npm' && value !== '@semantic-release/git'),
         {
             path: '@semantic-release/exec',
-            cmd: `docker build -t ${dockerPackage}:\${nextRelease.version} .`,
+            cmd: `docker build -t ${dockerPackage} .`,
         }
     ],
     publish: [

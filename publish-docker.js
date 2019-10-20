@@ -5,7 +5,11 @@ module.exports = async (pluginConfig, { nextRelease: { version, channel }, logge
 
     const dockerChannel = channel === 'master' ? 'latest' : channel;
 
-    execa('docker', ['tag', `${pluginConfig.name}:${dockerChannel}`, `${pluginConfig.name}:${version}`], { stdio: 'inherit' })
-    execa('docker', ['push', `${pluginConfig.name}:${version}`], { stdio: 'inherit' })
-    execa('docker', ['push', `${pluginConfig.name}:${dockerChannel}`], { stdio: 'inherit' })
+    execa('docker', ['tag', `${pluginConfig.name}:latest`, `${pluginConfig.name}:${version}`], { stdio: 'inherit' });
+    if (channel !== 'latest') {
+        execa('docker', ['tag', `${pluginConfig.name}:latest`, `${pluginConfig.name}:${channel}`], { stdio: 'inherit' });
+    }
+
+    execa('docker', ['push', `${pluginConfig.name}:${version}`], { stdio: 'inherit' });
+    execa('docker', ['push', `${pluginConfig.name}:${dockerChannel}`], { stdio: 'inherit' });
 };
