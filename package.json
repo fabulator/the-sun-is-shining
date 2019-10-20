@@ -17,11 +17,9 @@
     "license": "Apache-2.0",
     "keywords": [],
     "devDependencies": {
-        "@semantic-release/exec": "^3.3.7",
         "@socifi/commitlint-config": "^1.0.0",
         "husky": "^3.0.4",
-        "semantic-release-config-fabulator": "^1.0.3",
-        "semantic-release-docker": "^2.2.0",
+        "semantic-release-config-fabulator": "^1.1.1",
         "typescript": "^3.6.4"
     },
     "dependencies": {
@@ -31,7 +29,6 @@
         "cron": "^1.7.2",
         "dotenv": "^8.2.0",
         "luxon": "^1.19.3",
-        "semver": "^6.3.0",
         "sunrise-sunset-js": "^2.1.1",
         "twitter": "^1.7.1"
     }
