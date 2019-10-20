@@ -3,11 +3,10 @@ const semver = require('semver');
 
 module.exports = async ({ name }, { nextRelease: { version }, logger }) => {
     function publish(dockerVersion) {
+        logger.log(`Pushing version ${name}:${dockerVersion} to docker hub`);
         execa('docker', ['tag', `${name}:latest`, `${name}:${dockerVersion}`], { stdio: 'inherit' });
         execa('docker', ['push', `${name}:${dockerVersion}`], { stdio: 'inherit' });
     }
-
-    logger.log(`Pushing version ${name}:${version} to docker hub`);
 
     const { major, minor, patch, prerelease } = semver(version);
 
