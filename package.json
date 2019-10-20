@@ -21,7 +21,7 @@
         "@types/cron": "^1.7.1",
         "@types/luxon": "^1.15.2",
         "@types/twitter": "^1.7.0",
-        "husky": "^2.7.0",
+        "husky": "^3.0.9",
         "renovate-config-fabulator": "^1.1.0",
         "semantic-release-config-fabulator": "^1.1.7",
         "typescript": "^3.6.4"
