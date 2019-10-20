@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.4.0] 2019-10-20
+### Changed
+- dependency sunrise-sunset-js to ^2.1.1
+
+### Added
+- Renovate 
+
 ## [0.3.0] 2019-10-20
 ### Other
 - Merge pull request #5 from fabulator/beta
