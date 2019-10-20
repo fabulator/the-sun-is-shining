@@ -22,7 +22,7 @@
         "@types/twitter": "^1.7.0",
         "@socifi/commitlint-config": "^1.0.0",
         "husky": "^3.0.4",
-        "semantic-release-config-fabulator": "^1.1.6",
+        "semantic-release-config-fabulator": "^1.1.7",
         "typescript": "^3.6.4"
     },
     "dependencies": {
