@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.4.2] 2019-10-22
+### Fixed
+- [d2a7544](ssh://https://github.com/fabulator/the-sun-is-shining/commit/d2a7544dae40abcb42931113ec2387022b0ac054) Docker image was too large.
+
 ## [0.4.1] 2019-10-22
 ### Fixed
 - [48769c5](ssh://https://github.com/fabulator/the-sun-is-shining/commit/48769c5fc25781ec5c7962607596f7fe8a2692b1) 24h time in message
