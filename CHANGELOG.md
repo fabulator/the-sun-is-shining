@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.4.1] 2019-10-22
+### Fixed
+- [48769c5](ssh://https://github.com/fabulator/the-sun-is-shining/commit/48769c5fc25781ec5c7962607596f7fe8a2692b1) 24h time in message
+- [0f1227b](ssh://https://github.com/fabulator/the-sun-is-shining/commit/0f1227b21c108f47bb39a6ed25eaf0419e132204) Renovate configuration. 
+
 ## [0.4.0] 2019-10-20
 ### Fixed
 - [b5b460b](ssh://https://github.com/fabulator/the-sun-is-shining/commit/b5b460bddf9481f7f3e4d09d31c6e63ef1adffd6) Round minutes in human message.
