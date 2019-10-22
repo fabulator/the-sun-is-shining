@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.4.4] 2019-10-22
+### Fixed
+- [c83f018](ssh://https://github.com/fabulator/the-sun-is-shining/commit/c83f01803e439b5af7df78a5a8f8e0f086d4e7d5) Smaller once more.
+
 ## [0.4.3] 2019-10-22
 ### Fixed
 - [f95db41](ssh://https://github.com/fabulator/the-sun-is-shining/commit/f95db41558dbbc8f74a7c36a28711fcaf89ccc86) Make image even smaller.
