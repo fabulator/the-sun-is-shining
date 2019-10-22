@@ -46,7 +46,7 @@ function getPeriodLength(period: 'day' | 'night') {
 function setSunsetJob(day: when) {
     return setCronJob(getSunset, day, () => {
         const { hours, minutes } = getPeriodLength('night');
-        console.log('statuses/update', { status: `Dobrou noc, právě zapadlo slunce. Noc potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunrise(LAT, LON, DateTime.local().plus({ days: 1 }).toJSDate())).toFormat('hh:mm')}.` });
+        console.log('statuses/update', { now: DateTime.local(), status: `Dobrou noc, právě zapadlo slunce. Noc potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunrise(LAT, LON, DateTime.local().plus({ days: 1 }).toJSDate())).toFormat('HH:mm')}.` });
         setSunsetJob('tomorrow');
     });
 }
@@ -54,7 +54,7 @@ function setSunsetJob(day: when) {
 function setSunriseJob(day: when) {
     return setCronJob(getSunrise, day, () => {
         const { hours, minutes } = getPeriodLength('day');
-        console.log('statuses/update', { status: `Dobré ráno, právě vyšlo slunce. Den potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunset(LAT, LON)).toFormat('hh:mm')}.` });
+        console.log('statuses/update', { now: DateTime.local(), status: `Dobré ráno, právě vyšlo slunce. Den potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunset(LAT, LON)).toFormat('HH:mm')}.` });
         setSunriseJob('tomorrow');
     });
 }
