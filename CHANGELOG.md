@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] 2019-10-23
+### Added
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) tweeting
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) Prod ready BREAKING
+
+### Fixed
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) Remove renovate config from dependencies
+
 ## [0.4.4] 2019-10-22
 ### Fixed
 - [c83f018](ssh://https://github.com/fabulator/the-sun-is-shining/commit/c83f01803e439b5af7df78a5a8f8e0f086d4e7d5) Smaller once more.
