@@ -1,4 +1,5 @@
 import Twitter from 'twitter';
+import { DateTime } from 'luxon';
 
 const client = new Twitter({
     consumer_key: process.env.TWITTER_KEY,
@@ -8,5 +9,6 @@ const client = new Twitter({
 });
 
 export default (text: string) => {
+    console.log(`${DateTime.local().toISO()} - ${text}`);
     return client.post('statuses/update', { status: text });
 }
