@@ -27,7 +27,7 @@
     "dependencies": {
         "cron": "^1.7.2",
         "dotenv": "^8.2.0",
-        "luxon": "^1.19.3",
+        "luxon": "^1.21.0",
         "sunrise-sunset-js": "^2.1.1",
         "twitter": "^1.7.1"
     }
