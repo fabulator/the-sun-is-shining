@@ -1,60 +1,61 @@
-// @ts-ignore
-import { getSunrise, getSunset } from 'sunrise-sunset-js';
 import { CronJob, CronTime, CronCommand } from 'cron';
 import { DateTime } from 'luxon';
+import { getSunrise, getSunset } from './sunrise-sunset';
+import post from './tweet';
 
-const LAT = Number(process.env.LAT);
-const LON = Number(process.env.LON);
+type When = 'today' | 'tomorrow';
 
-if (!LAT || !LON) {
-    throw new Error('Location variables are not set.');
-}
+function setCronJob(sunEvent: (time: Date) => Date, when: When, action: CronCommand): CronJob {
+    const job = new CronJob('', action);
 
-type when = 'today' | 'tomorrow';
+    const eventTime = new Date();
 
-function setCronJob(time: (lat: number, lon: number, time: Date) => Date, when: when, action: CronCommand): CronJob {
-    const job = (new CronJob('', action));
-
-    const t = new Date();
     if (when === 'tomorrow') {
-        t.setDate(t.getDate() + 1);
+        eventTime.setDate(eventTime.getDate() + 1);
     }
 
     try {
-        job.setTime(new CronTime(time(LAT, LON, t)));
+        job.setTime(new CronTime(sunEvent(eventTime)));
         job.nextDate().toDate();
-    } catch(exception) {
+    } catch (exception) {
         if (exception.message === 'WARNING: Date in past. Will never be fired.') {
-            return setCronJob(time, 'tomorrow', action);
+            return setCronJob(sunEvent, 'tomorrow', action);
         }
         throw exception;
     }
 
     job.start();
 
-    return job
+    return job;
 }
 
 function getPeriodLength(period: 'day' | 'night') {
     const sunFunction = period === 'day' ? getSunset : getSunrise;
 
-    const { hours, minutes } = DateTime.local().diff(DateTime.fromJSDate(sunFunction(LAT, LON, DateTime.local().plus({ days: period === 'day' ? 0 : 1 }).toJSDate()))).negate().shiftTo('hours', 'minutes');
+    const eventTime = DateTime.fromJSDate(sunFunction(DateTime.local().plus({ days: period === 'day' ? 0 : 1 }).toJSDate()));
 
-    return { hours, minutes };
+    const { hours, minutes } = DateTime.local().diff(eventTime).negate().shiftTo('hours', 'minutes');
+
+    return {
+        hours,
+        minutes: Math.floor(minutes),
+    };
 }
 
-function setSunsetJob(day: when) {
+function setSunsetJob(day: When) {
     return setCronJob(getSunset, day, () => {
         const { hours, minutes } = getPeriodLength('night');
-        console.log('statuses/update', { now: DateTime.local(), status: `Dobrou noc, právě zapadlo slunce. Noc potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunrise(LAT, LON, DateTime.local().plus({ days: 1 }).toJSDate())).toFormat('HH:mm')}.` });
+        const sunrise = DateTime.fromJSDate(getSunrise(DateTime.local().plus({ days: 1 }).toJSDate()));
+        post(`Dobrou noc, právě jsem zapadlo. Noc potrvá ${hours} hodin a ${minutes} minut a skončí v ${sunrise.toFormat('HH:mm')}.`);
         setSunsetJob('tomorrow');
     });
 }
 
-function setSunriseJob(day: when) {
+function setSunriseJob(day: When) {
     return setCronJob(getSunrise, day, () => {
         const { hours, minutes } = getPeriodLength('day');
-        console.log('statuses/update', { now: DateTime.local(), status: `Dobré ráno, právě vyšlo slunce. Den potrvá ${hours} hodin a ${Math.floor(minutes)} minut a skončí v ${DateTime.fromJSDate(getSunset(LAT, LON)).toFormat('HH:mm')}.` });
+        const sunset = DateTime.fromJSDate(getSunset());
+        post(`Dobré ráno, právě jsem vyšlo. Den potrvá ${hours} hodin a ${minutes} minut a skončí v ${sunset.toFormat('HH:mm')}.`);
         setSunriseJob('tomorrow');
     });
 }
