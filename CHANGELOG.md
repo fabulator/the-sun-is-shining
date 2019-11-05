@@ -1,6 +1,19 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] 2019-11-02
+### Changed
+- [23a8cd6](https://github.com/fabulator/the-sun-is-shining/commit/23a8cd6c6e7350dc7e349d1d6af9b71e7385e64d) Update dependency luxon to ^1.21.0
+- [e19858e](https://github.com/fabulator/the-sun-is-shining/commit/e19858e7d5ddcd6e58ea1b8c3f0f00e067a7aef5) Update dev dependency semantic-release-config-fabulator to ^1.3.2 
+
+## [1.0.0] 2019-10-23
+### Added
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) tweeting
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) Prod ready BREAKING
+
+### Fixed
+- [efdbd7a](ssh://https://github.com/fabulator/the-sun-is-shining/commit/efdbd7ae18ec804b5c4112b77f653286f4cb7fe6) Remove renovate config from dependencies
+
 ## [0.4.4] 2019-10-22
 ### Fixed
 - [c83f018](ssh://https://github.com/fabulator/the-sun-is-shining/commit/c83f01803e439b5af7df78a5a8f8e0f086d4e7d5) Smaller once more.
