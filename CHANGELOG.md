@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] 2019-11-19
+### Changed
+- [c0e6a99](https://github.com/fabulator/the-sun-is-shining/commit/c0e6a9949abae64023a9bf4de7829485cad469b4) Update dependency luxon to v1.21.2
+- [ed1fb39](https://github.com/fabulator/the-sun-is-shining/commit/ed1fb3929b48d63b54dd32478c696c8136de6af4) Update dev dependency @types/luxon to v1.21.0 
+- [520cf81](https://github.com/fabulator/the-sun-is-shining/commit/520cf815a336a56fc0d91e21609c314533ce945e) Update dev dependency typescript to ^3.7.2 
+
 ## [1.3.0] 2019-11-06
 ### Changed
 - [f538975](https://github.com/fabulator/the-sun-is-shining/commit/f538975a0782428669349ee2f9ed1949147db579) Update dependency luxon to ^1.21.1
