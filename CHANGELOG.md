@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.5.0] 2019-11-29
+### Changed
+- [0a4a462](https://github.com/fabulator/the-sun-is-shining/commit/0a4a462386b4874efbba35c038ab6df2fe14262b) Update dependency luxon to v1.21.3
+
 ## [1.4.0] 2019-11-19
 ### Changed
 - [c0e6a99](https://github.com/fabulator/the-sun-is-shining/commit/c0e6a9949abae64023a9bf4de7829485cad469b4) Update dependency luxon to v1.21.2
