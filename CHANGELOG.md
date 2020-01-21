@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.6.0] 2020-01-21
+### Changed
+- [a7b1819](https://github.com/fabulator/the-sun-is-shining/commit/a7b1819c08f18029f5e6079efb4863cffb8ad3ad) Update dependency cron to v1.8.1
+- [169b29b](https://github.com/fabulator/the-sun-is-shining/commit/169b29b31fe3ce45fb4c043132f983757750fac4) Update dev dependency typescript to v3.7.5 
+- [741e6f8](https://github.com/fabulator/the-sun-is-shining/commit/741e6f8f2f5c68795e030777b1a1ffd11601f35b) Update dev dependency typescript to v3.7.4 
+- [322debe](https://github.com/fabulator/the-sun-is-shining/commit/322debe14f4cd10db5db968edf974cdf82f0105e) Update dev dependency typescript to v3.7.3 
+
 ## [1.5.0] 2019-11-29
 ### Changed
 - [0a4a462](https://github.com/fabulator/the-sun-is-shining/commit/0a4a462386b4874efbba35c038ab6df2fe14262b) Update dependency luxon to v1.21.3
