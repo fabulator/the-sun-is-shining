@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.7.0] 2020-01-25
+### Changed
+- [2160383](https://github.com/fabulator/the-sun-is-shining/commit/21603831a412e0c78e917d699e17ddd349d98646) Update dependency cron to v1.8.2
+
 ## [1.6.0] 2020-01-21
 ### Changed
 - [a7b1819](https://github.com/fabulator/the-sun-is-shining/commit/a7b1819c08f18029f5e6079efb4863cffb8ad3ad) Update dependency cron to v1.8.1
