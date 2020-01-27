@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.8.0] 2020-01-27
+### Changed
+- [0800e41](https://github.com/fabulator/the-sun-is-shining/commit/0800e41edb09b5f0ae42ae36913fc8e38870ebe4) Update dependency luxon to v1.22.0
+
 ## [1.7.0] 2020-01-25
 ### Changed
 - [2160383](https://github.com/fabulator/the-sun-is-shining/commit/21603831a412e0c78e917d699e17ddd349d98646) Update dependency cron to v1.8.2
