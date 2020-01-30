@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.8.1] 2020-01-30
+### Fixed
+- [07e6bff](https://github.com/fabulator/the-sun-is-shining/commit/07e6bff115844613a99df54fcf7842a3f06affb8) Default starting time.
+
 ## [1.8.0] 2020-01-27
 ### Changed
 - [0800e41](https://github.com/fabulator/the-sun-is-shining/commit/0800e41edb09b5f0ae42ae36913fc8e38870ebe4) Update dependency luxon to v1.22.0
