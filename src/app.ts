@@ -6,7 +6,7 @@ import post from './tweet';
 type When = 'today' | 'tomorrow';
 
 function setCronJob(sunEvent: (time: Date) => Date, when: When, action: CronCommand): CronJob {
-    const job = new CronJob('', action);
+    const job = new CronJob(new Date(), action);
 
     const eventTime = new Date();
 
