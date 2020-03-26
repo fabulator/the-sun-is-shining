@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.9.0] 2020-03-26
+### Changed
+- [f259aed](https://github.com/fabulator/the-sun-is-shining/commit/f259aed6ad7ecf98d16fe5c6d615dfddf7aa1425) Update dependency luxon to v1.22.2
+- [c2008d8](https://github.com/fabulator/the-sun-is-shining/commit/c2008d8fc378b5117b270b811ad7d114b5cc2ad8) Update dev dependency @types/luxon to v1.22.0 
+- [0cd4d9f](https://github.com/fabulator/the-sun-is-shining/commit/0cd4d9f2bd75c92f3118efd683e7e36a4ad02fac) Update dev dependency typescript to v3.8.3 
+- [2e52331](https://github.com/fabulator/the-sun-is-shining/commit/2e523313cf47940cd822c8b7147c7c9d33fe7b73) Update dev dependency @types/cron to v1.7.2 
+- [9e8957c](https://github.com/fabulator/the-sun-is-shining/commit/9e8957cd4110ad6417eb07bd2163bc4c26d0e601) Update dev dependency typescript to v3.8.2 
+- [f56ee29](https://github.com/fabulator/the-sun-is-shining/commit/f56ee29e76c39acdd45989b8bced1982e4e3d63a) Update dev dependency @socifi/eslint-config to v2.10.2 
+
 ## [1.8.1] 2020-01-30
 ### Fixed
 - [07e6bff](https://github.com/fabulator/the-sun-is-shining/commit/07e6bff115844613a99df54fcf7842a3f06affb8) Default starting time.
