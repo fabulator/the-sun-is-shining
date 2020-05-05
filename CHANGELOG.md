@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.12.0] 2020-05-05
+### Changed
+- [3663b13](https://github.com/fabulator/the-sun-is-shining/commit/3663b1330186869f57506d8d30f6a6c6a9766d1f) Update dependency luxon to v1.24.1
+
 ## [1.11.0] 2020-04-04
 ### Changed
 - [f02de71](https://github.com/fabulator/the-sun-is-shining/commit/f02de7145c9743556e246e18eb5ebd187f6f46a6) Update dependency sunrise-sunset-js to v2.1.2
