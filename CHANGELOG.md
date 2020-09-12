@@ -1,6 +1,20 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.13.0 (2020-09-12)
+### Changed
+- [4187aa7](https://github.com/fabulator/the-sun-is-shining/commit/4187aa7d92d5445d29ea87add1dcf4feb58b6997) Update dev dependency typescript to v4 
+- [9654038](https://github.com/fabulator/the-sun-is-shining/commit/96540384e05ceb9c60b30566ea1ff30db225b641) Update dev dependency @types/luxon to v1.24.3 
+- [a94a60e](https://github.com/fabulator/the-sun-is-shining/commit/a94a60e654d87ddcfb1935783cb1ee811b863963) Update dev dependency @types/luxon to v1.24.2 
+- [de0a244](https://github.com/fabulator/the-sun-is-shining/commit/de0a244de84637b7ad2ac61eb299df3fe81a563c) Update dev dependency semantic-release-config-fabulator to v2 
+- [4efa54a](https://github.com/fabulator/the-sun-is-shining/commit/4efa54ae1cc809f586d1e9c0d8ad517584354b9d) Update dev dependency typescript to v3.9.7 
+- [f627937](https://github.com/fabulator/the-sun-is-shining/commit/f627937073d9bdcf8caf9f8896adf1f2028a2b1e) Update dev dependency typescript to v3.9.6 
+- [8ed2123](https://github.com/fabulator/the-sun-is-shining/commit/8ed2123b0814d887d535cc275c794505fd0de574) Update dev dependency @types/luxon to v1.24.1 
+- [b7cd3ed](https://github.com/fabulator/the-sun-is-shining/commit/b7cd3ed65ff5aae5fb02e08cc586bed17550ba86) Update dev dependency typescript to v3.9.5 
+- [214a195](https://github.com/fabulator/the-sun-is-shining/commit/214a1955810c5b4f2a80ebed6f2ad0724c31a7b1) Update dev dependency typescript to v3.9.3 
+- [b4e4cf5](https://github.com/fabulator/the-sun-is-shining/commit/b4e4cf5c379db3fc42a0de0ed74afcaeeeb81f02) Update dev dependency typescript to v3.9.2 
+- [4e81351](https://github.com/fabulator/the-sun-is-shining/commit/4e81351755afaeb3ef514434f5471621cc121582) Update dev dependency @types/luxon to v1.24.0 
+
 ## [1.12.0] 2020-05-05
 ### Changed
 - [3663b13](https://github.com/fabulator/the-sun-is-shining/commit/3663b1330186869f57506d8d30f6a6c6a9766d1f) Update dependency luxon to v1.24.1
