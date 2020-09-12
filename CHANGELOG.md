@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.13.1 (2020-09-12)
+### Fixed
+- [c5d0605](https://github.com/fabulator/the-sun-is-shining/commit/c5d0605b88c6c9b90a1e97140fde8814bae6d944) Security lock update
+
 ## v1.13.0 (2020-09-12)
 ### Changed
 - [4187aa7](https://github.com/fabulator/the-sun-is-shining/commit/4187aa7d92d5445d29ea87add1dcf4feb58b6997) Update dev dependency typescript to v4 
