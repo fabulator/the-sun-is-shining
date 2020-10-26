@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.13.10 (2020-10-26)
+### Fixed
+- [918dabb](https://github.com/fabulator/the-sun-is-shining/commit/918dabb458496cce3a89bbad11ed6ddd6f1822cc) Update lock for security updated
+
 ## v1.13.9 (2020-10-19)
 ### Fixed
 - [7d813d3](https://github.com/fabulator/the-sun-is-shining/commit/7d813d3ce027a98a90fad165d1c46e55a9d2c65a) Update lock for security updated
