@@ -1,6 +1,6 @@
 {
     "name": "the-sun-is-shining",
-    "version": "1.13.24",
+    "version": "1.13.25",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
