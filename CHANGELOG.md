@@ -1,6 +1,24 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2021-06-06)
+### Changed
+- [10ce126](https://github.com/fabulator/the-sun-is-shining/commit/10ce126f6d6bbcbb60c58ddf4b9a5738b5ff7c1d) Update actions/checkout action to v2 (#65)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [b9ccaf1](https://github.com/fabulator/the-sun-is-shining/commit/b9ccaf12256f9ae90784bf1dab230d6d7fb71209) Update actions/setup-node action to v2 (#78)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [1522a4f](https://github.com/fabulator/the-sun-is-shining/commit/1522a4f8fd020128e2c6709e9e6a5fe3e9928b30) Update Node.js to v16 (#96)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [2d6074c](https://github.com/fabulator/the-sun-is-shining/commit/2d6074c95885b19d422e5515f686b0f7821bce3d) Update alpine Docker tag to v20210212 (#97)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [8a4e38e](https://github.com/fabulator/the-sun-is-shining/commit/8a4e38ee2e785cc30fe9bdf7427e949b2ab6f8a5) Update dependency dotenv to v10 BREAKING (#102)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v1.13.40 (2021-05-31)
 ### Fixed
 - [57fab74](https://github.com/fabulator/the-sun-is-shining/commit/57fab747bee6f3a5a254e6e732c13cda56661d04) Update lock for security updated
