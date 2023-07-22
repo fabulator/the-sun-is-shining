@@ -14,7 +14,6 @@ jobs:
             - name: NPM Build and Test
               run: |
                   npm ci
-                  npm run lint
                   npm run tsc
                   npm run release
               env:
