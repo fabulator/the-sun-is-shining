@@ -13,8 +13,8 @@ export default async (text: string) => {
     console.log(`${DateTime.local().toISO()} - ${text}`);
 
     try {
-        return await client.v2.tweet({ text });
-    } catch (error) {
-        console.error(error);
+        await client.v2.tweet({ text });
+    } catch (exception) {
+        console.error(exception);
     }
 };
