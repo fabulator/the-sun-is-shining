@@ -16,8 +16,8 @@ function setCronJob(sunEvent: (time: Date) => Date, when: When, action: CronComm
 
     try {
         job.setTime(new CronTime(sunEvent(eventTime)));
-        job.nextDate().toDate();
-    } catch (exception) {
+        job.nextDate().toJSDate();
+    } catch (exception: any) {
         if (exception.message === 'WARNING: Date in past. Will never be fired.') {
             return setCronJob(sunEvent, 'tomorrow', action);
         }
