@@ -23,6 +23,7 @@
         "@types/cron": "^2.0.1",
         "@types/luxon": "^3.3.1",
         "semantic-release-config-fabulator": "^6.0.0",
+        "semantic-release-docker": "^2.2.0",
         "typescript": "^5.1.6"
     },
     "dependencies": {
