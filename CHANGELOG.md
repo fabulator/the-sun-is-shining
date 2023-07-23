@@ -1,6 +1,19 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.1.0 (2023-07-23)
+### Fixed
+- [e54b863](https://github.com/fabulator/the-sun-is-shining/commit/e54b86362698b9bf380e1b427672815c7e78e88b) Upgrade twitter client
+- [d33e673](https://github.com/fabulator/the-sun-is-shining/commit/d33e673346a8161eabaef34e2df4f896d7135159) Upgrade twitter client
+- [0e9f9d5](https://github.com/fabulator/the-sun-is-shining/commit/0e9f9d574fa96f388ef23d51e8f38d1d4baafff4) Upgrade twitter client
+- [fd36235](https://github.com/fabulator/the-sun-is-shining/commit/fd362359031c4689a89d3c2b5a92e90bb3e21c13) Upgrade twitter client
+- [7a79ad8](https://github.com/fabulator/the-sun-is-shining/commit/7a79ad8db4eabb3473314c91c03fe51624451f50) Upgrade twitter client
+- [2dfccaa](https://github.com/fabulator/the-sun-is-shining/commit/2dfccaa089b308339dec2f9cbf8a63b17d0a56bc) Upgrade twitter client
+- [a41c81f](https://github.com/fabulator/the-sun-is-shining/commit/a41c81fe3c19463d8a112527674405a5c710c3c5) Upgrade twitter client
+- [78a8ea4](https://github.com/fabulator/the-sun-is-shining/commit/78a8ea47a638d0a5779e617f7e50112eebe0bc7c) Upgrade twitter client
+- [fc27645](https://github.com/fabulator/the-sun-is-shining/commit/fc27645f1fcb3a60340e8a1dfd84113d9635da6d) Upgrade twitter client
+- [23b5f4a](https://github.com/fabulator/the-sun-is-shining/commit/23b5f4a5007c2cade20001e25b8cd4c095ed9bea) Upgrade twitter client
+
 ## v2.0.19 (2023-07-23)
 ### Fixed
 - [d33e673](https://github.com/fabulator/the-sun-is-shining/commit/d33e673346a8161eabaef34e2df4f896d7135159) Upgrade twitter client
