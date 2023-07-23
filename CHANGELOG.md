@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.1.3 (2023-07-23)
+### Fixed
+- [1e90308](https://github.com/fabulator/the-sun-is-shining/commit/1e903085a5dfe371c98ada3eccde1eee091e5ed9) Upgrade twitter client
+
 ## v2.1.2 (2023-07-23)
 ### Fixed
 - [59a1ac4](https://github.com/fabulator/the-sun-is-shining/commit/59a1ac421953a38dbb90a605fcbdc0ca811ef012) Upgrade twitter client
