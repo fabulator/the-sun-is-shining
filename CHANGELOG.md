@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.2.0 (2024-04-14)
+### Changed
+- [723b5f2](https://github.com/fabulator/the-sun-is-shining/commit/723b5f249393629ca237279990e31a604e2cb02c) Update Node.js to v18.20.2
+
 ## v2.1.4 (2023-07-23)
 ### Fixed
 - [3952c57](https://github.com/fabulator/the-sun-is-shining/commit/3952c57376653e77a105932dfe86d37de0c7a7bd) Upgrade twitter client
