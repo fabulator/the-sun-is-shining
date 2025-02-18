@@ -1,4 +1,4 @@
-FROM node:18.20.6-alpine AS build
+FROM node:22.14.0-alpine AS build
 
 WORKDIR /srv
 COPY package*.json /srv/
@@ -8,7 +8,7 @@ COPY src /srv/src/
 RUN npm run tsc
 RUN npm ci --production
 
-FROM node:18.20.6-alpine
+FROM node:22.14.0-alpine
 WORKDIR /srv
 COPY --from=build /srv/node_modules /srv/node_modules
 COPY --from=build /srv/dist /srv/
