@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.7.0 (2025-02-24)
+### Changed
+- [1d32d35](https://github.com/fabulator/the-sun-is-shining/commit/1d32d353e193c518bfe994a368a9b2a4e0f2d153) Update Node.js to v18.20.7 (#167)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v2.6.0 (2025-01-26)
 ### Changed
 - [8e9a535](https://github.com/fabulator/the-sun-is-shining/commit/8e9a535a20927463b5fcd22a6b81966fa94cef56) Update Node.js to v18.20.6 (#164)
