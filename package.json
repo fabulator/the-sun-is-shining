@@ -22,7 +22,7 @@
         "@socifi/eslint-config": "^2.10.2",
         "@types/cron": "^2.0.1",
         "@types/luxon": "^3.3.1",
-        "semantic-release-config-fabulator": "^6.0.1",
+        "semantic-release-config-fabulator": "^7.0.0",
         "typescript": "^5.1.6"
     },
     "overrides": {
